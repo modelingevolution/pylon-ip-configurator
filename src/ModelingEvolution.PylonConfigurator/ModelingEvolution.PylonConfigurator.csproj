@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>ModelingEvolution.PylonConfigurator</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>ModelingEvolution</Authors>
+    <Description>C# wrapper for pylon-ip-configurator CLI tool. Enumerate Basler GigE cameras, set static/DHCP IP configuration, and force temporary IPs.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/modelingevolution/pylon-ip-configurator</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
