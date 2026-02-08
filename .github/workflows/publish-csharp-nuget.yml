@@ -33,7 +33,7 @@ jobs:
     - name: Update version in csproj
       run: |
         VERSION="${{ steps.version.outputs.VERSION }}"
-        sed -i "s/<Version>.*<\/Version>/<Version>$VERSION<\/Version>/" **/*.csproj
+        find . -name '*.csproj' -exec sed -i "s/<Version>.*<\/Version>/<Version>$VERSION<\/Version>/" {} +
 
     - name: Restore
       run: dotnet restore
